@@ -1,0 +1,15 @@
+﻿<Page x:Class="CaesarCipher_Playground.Pages.EncryptorPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CaesarCipher_Playground.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="400" d:DesignWidth="800"
+      Title="EncryptorPage">
+
+    <Grid>
+        <Button x:Name="Bttn_SaveFile" Content="Save File" HorizontalAlignment="Left" Margin="30,45,0,0" VerticalAlignment="Top" Height="45" Width="85" RenderTransformOrigin="0.294,0" FontSize="15" Click="Bttn_SaveFile_Click"/>
+        <TextBox x:Name="Tb_Text" HorizontalAlignment="Stretch" Margin="150,25,25,25" TextWrapping="Wrap" VerticalAlignment="Stretch" FontSize="20" AcceptsReturn="True"/>
+    </Grid>
+</Page>
