@@ -1,4 +1,4 @@
-# SQL-Injection-Playground
+# CaesarCipher-Playground
 
 ## About
 It is a program where you can work pratically with CaeserCipher 
