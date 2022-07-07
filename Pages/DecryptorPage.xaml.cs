@@ -51,12 +51,17 @@ namespace CaesarCipher_Playground.Pages
                     if (ascii == '\n')
                         continue;
 
-                    int res = ascii - 65;
+                    if (ascii > 31 && ascii < 65 || ascii > 90 && ascii < 97 || ascii > 122 && ascii < 127)
+                        decryptedText += splittedText[i].ToString();
 
-                    if (res <= -1 || res > 26)
-                        decryptedText += splittedText[i];
-                    else
-                        decryptedText += Models.AlphabetModel.Alphabet[res];
+                    for (int j = 0; j < Models.AlphabetModel.Alphabet.Length; j++)
+                        {
+                            if (splittedText[i].ToString() == Models.AlphabetModel.Alphabet[j])
+                            {
+                                char res = (char)(65 + j);
+                                decryptedText += res;
+                            }
+                    }
                 }
 
                 Tb_Text.Text = decryptedText;

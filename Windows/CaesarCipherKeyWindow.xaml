@@ -25,107 +25,107 @@
             <WrapPanel Orientation="Horizontal">
                 <StackPanel Width="100" Margin="5, 5, 5, 5" Height="150">
                     <Label Content="Letter A" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Margin="0, 25, 0, 0" />
-                    <TextBox x:Name="Tb_Letter_A" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="A" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="1" TextChanged="Tb_Letter_TextChanged" />
+                    <TextBox x:Name="Tb_Letter_A" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="A" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="2" TextChanged="Tb_Letter_TextChanged" />
                 </StackPanel>
                 <StackPanel Width="100" Margin="5, 5, 5, 5" Height="150">
                     <Label Content="Letter B" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Margin="0, 25, 0, 0" />
-                    <TextBox x:Name="Tb_Letter_B" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="B" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="1" TextChanged="Tb_Letter_TextChanged" />
+                    <TextBox x:Name="Tb_Letter_B" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="B" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="2" TextChanged="Tb_Letter_TextChanged" />
                 </StackPanel>
                 <StackPanel Width="100" Margin="5, 5, 5, 5" Height="150">
                     <Label Content="Letter C" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Margin="0, 25, 0, 0" />
-                    <TextBox x:Name="Tb_Letter_C" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="C" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="1" TextChanged="Tb_Letter_TextChanged" />
+                    <TextBox x:Name="Tb_Letter_C" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="C" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="2" TextChanged="Tb_Letter_TextChanged" />
                 </StackPanel>
                 <StackPanel Width="100" Margin="5, 5, 5, 5" Height="150">
                     <Label Content="Letter D" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Margin="0, 25, 0, 0" />
-                    <TextBox x:Name="Tb_Letter_D" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="D" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="1" TextChanged="Tb_Letter_TextChanged" />
+                    <TextBox x:Name="Tb_Letter_D" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="D" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="2" TextChanged="Tb_Letter_TextChanged" />
                 </StackPanel>
                 <StackPanel Width="100" Margin="5, 5, 5, 5" Height="150">
                     <Label Content="Letter E" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Margin="0, 25, 0, 0" />
-                    <TextBox x:Name="Tb_Letter_E" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="E" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="1" TextChanged="Tb_Letter_TextChanged" />
+                    <TextBox x:Name="Tb_Letter_E" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="E" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="2" TextChanged="Tb_Letter_TextChanged" />
                 </StackPanel>
                 <StackPanel Width="100" Margin="5, 5, 5, 5" Height="150">
                     <Label Content="Letter F" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Margin="0, 25, 0, 0" />
-                    <TextBox x:Name="Tb_Letter_F" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="F" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="1" TextChanged="Tb_Letter_TextChanged" />
+                    <TextBox x:Name="Tb_Letter_F" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="F" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="2" TextChanged="Tb_Letter_TextChanged" />
                 </StackPanel>
                 <StackPanel Width="100" Margin="5, 5, 5, 5" Height="150">
                     <Label Content="Letter G" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Margin="0, 25, 0, 0" />
-                    <TextBox x:Name="Tb_Letter_G" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="G" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="1" TextChanged="Tb_Letter_TextChanged" />
+                    <TextBox x:Name="Tb_Letter_G" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="G" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="2" TextChanged="Tb_Letter_TextChanged" />
                 </StackPanel>
                 <StackPanel Width="100" Margin="5, 5, 5, 5" Height="150">
                     <Label Content="Letter H" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Margin="0, 25, 0, 0" />
-                    <TextBox x:Name="Tb_Letter_H" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="H" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="1" TextChanged="Tb_Letter_TextChanged" />
+                    <TextBox x:Name="Tb_Letter_H" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="H" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="2" TextChanged="Tb_Letter_TextChanged" />
                 </StackPanel>
                 <StackPanel Width="100" Margin="5, 5, 5, 5" Height="150">
                     <Label Content="Letter I" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Margin="0, 25, 0, 0" />
-                    <TextBox x:Name="Tb_Letter_I" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="I" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="1" TextChanged="Tb_Letter_TextChanged" />
+                    <TextBox x:Name="Tb_Letter_I" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="I" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="2" TextChanged="Tb_Letter_TextChanged" />
                 </StackPanel>
                 <StackPanel Width="100" Margin="5, 5, 5, 5" Height="150">
                     <Label Content="Letter J" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Margin="0, 25, 0, 0" />
-                    <TextBox x:Name="Tb_Letter_J" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="J" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="1" TextChanged="Tb_Letter_TextChanged" />
+                    <TextBox x:Name="Tb_Letter_J" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="J" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="2" TextChanged="Tb_Letter_TextChanged" />
                 </StackPanel>
                 <StackPanel Width="100" Margin="5, 5, 5, 5" Height="150">
                     <Label Content="Letter K" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Margin="0, 25, 0, 0" />
-                    <TextBox x:Name="Tb_Letter_K" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="K" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="1" TextChanged="Tb_Letter_TextChanged" />
+                    <TextBox x:Name="Tb_Letter_K" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="K" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="2" TextChanged="Tb_Letter_TextChanged" />
                 </StackPanel>
                 <StackPanel Width="100" Margin="5, 5, 5, 5" Height="150">
                     <Label Content="Letter L" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Margin="0, 25, 0, 0" />
-                    <TextBox x:Name="Tb_Letter_L" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="L" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="1" TextChanged="Tb_Letter_TextChanged" />
+                    <TextBox x:Name="Tb_Letter_L" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="L" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="2" TextChanged="Tb_Letter_TextChanged" />
                 </StackPanel>
                 <StackPanel Width="100" Margin="5, 5, 5, 5" Height="150">
                     <Label Content="Letter M" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Margin="0, 25, 0, 0" />
-                    <TextBox x:Name="Tb_Letter_M" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="M" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="1" TextChanged="Tb_Letter_TextChanged" />
+                    <TextBox x:Name="Tb_Letter_M" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="M" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="2" TextChanged="Tb_Letter_TextChanged" />
                 </StackPanel>
                 <StackPanel Width="100" Margin="5, 5, 5, 5" Height="150">
                     <Label Content="Letter N" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Margin="0, 25, 0, 0" />
-                    <TextBox x:Name="Tb_Letter_N" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="N" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="1" TextChanged="Tb_Letter_TextChanged" />
+                    <TextBox x:Name="Tb_Letter_N" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="N" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="2" TextChanged="Tb_Letter_TextChanged" />
                 </StackPanel>
                 <StackPanel Width="100" Margin="5, 5, 5, 5" Height="150">
                     <Label Content="Letter O" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Margin="0, 25, 0, 0" />
-                    <TextBox x:Name="Tb_Letter_O" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="O" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="1" TextChanged="Tb_Letter_TextChanged" />
+                    <TextBox x:Name="Tb_Letter_O" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="O" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="2" TextChanged="Tb_Letter_TextChanged" />
                 </StackPanel>
                 <StackPanel Width="100" Margin="5, 5, 5, 5" Height="150">
                     <Label Content="Letter P" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Margin="0, 25, 0, 0" />
-                    <TextBox x:Name="Tb_Letter_P" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="P" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="1" TextChanged="Tb_Letter_TextChanged" />
+                    <TextBox x:Name="Tb_Letter_P" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="P" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="2" TextChanged="Tb_Letter_TextChanged" />
                 </StackPanel>
                 <StackPanel Width="100" Margin="5, 5, 5, 5" Height="150">
                     <Label Content="Letter Q" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Margin="0, 25, 0, 0" />
-                    <TextBox x:Name="Tb_Letter_Q" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="Q" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="1" TextChanged="Tb_Letter_TextChanged" />
+                    <TextBox x:Name="Tb_Letter_Q" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="Q" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="2" TextChanged="Tb_Letter_TextChanged" />
                 </StackPanel>
                 <StackPanel Width="100" Margin="5, 5, 5, 5" Height="150">
                     <Label Content="Letter R" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Margin="0, 25, 0, 0" />
-                    <TextBox x:Name="Tb_Letter_R" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="R" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="1" TextChanged="Tb_Letter_TextChanged" />
+                    <TextBox x:Name="Tb_Letter_R" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="R" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="2" TextChanged="Tb_Letter_TextChanged" />
                 </StackPanel>
                 <StackPanel Width="100" Margin="5, 5, 5, 5" Height="150">
                     <Label Content="Letter S" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Margin="0, 25, 0, 0" />
-                    <TextBox x:Name="Tb_Letter_S" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="S" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="1" TextChanged="Tb_Letter_TextChanged" />
+                    <TextBox x:Name="Tb_Letter_S" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="S" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="2" TextChanged="Tb_Letter_TextChanged" />
                 </StackPanel>
                 <StackPanel Width="100" Margin="5, 5, 5, 5" Height="150">
                     <Label Content="Letter T" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Margin="0, 25, 0, 0" />
-                    <TextBox x:Name="Tb_Letter_T" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="T" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="1" TextChanged="Tb_Letter_TextChanged" />
+                    <TextBox x:Name="Tb_Letter_T" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="T" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="2" TextChanged="Tb_Letter_TextChanged" />
                 </StackPanel>
                 <StackPanel Width="100" Margin="5, 5, 5, 5" Height="150">
                     <Label Content="Letter U" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Margin="0, 25, 0, 0" />
-                    <TextBox x:Name="Tb_Letter_U" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="U" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="1" TextChanged="Tb_Letter_TextChanged" />
+                    <TextBox x:Name="Tb_Letter_U" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="U" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="2" TextChanged="Tb_Letter_TextChanged" />
                 </StackPanel>
                 <StackPanel Width="100" Margin="5, 5, 5, 5" Height="150">
                     <Label Content="Letter V" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Margin="0, 25, 0, 0" />
-                    <TextBox x:Name="Tb_Letter_V" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="V" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="1" TextChanged="Tb_Letter_TextChanged" />
+                    <TextBox x:Name="Tb_Letter_V" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="V" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="2" TextChanged="Tb_Letter_TextChanged" />
                 </StackPanel>
                 <StackPanel Width="100" Margin="5, 5, 5, 5" Height="150">
                     <Label Content="Letter W" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Margin="0, 25, 0, 0" />
-                    <TextBox x:Name="Tb_Letter_W" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="W" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="1" TextChanged="Tb_Letter_TextChanged" />
+                    <TextBox x:Name="Tb_Letter_W" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="W" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="2" TextChanged="Tb_Letter_TextChanged" />
                 </StackPanel>
                 <StackPanel Width="100" Margin="5, 5, 5, 5" Height="150">
                     <Label Content="Letter X" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Margin="0, 25, 0, 0" />
-                    <TextBox x:Name="Tb_Letter_X" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="X" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="1" TextChanged="Tb_Letter_TextChanged" />
+                    <TextBox x:Name="Tb_Letter_X" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="X" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="2" TextChanged="Tb_Letter_TextChanged" />
                 </StackPanel>
                 <StackPanel Width="100" Margin="5, 5, 5, 5" Height="150">
                     <Label Content="Letter Y" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Margin="0, 25, 0, 0" />
-                    <TextBox x:Name="Tb_Letter_Y" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="Y" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="1" TextChanged="Tb_Letter_TextChanged" />
+                    <TextBox x:Name="Tb_Letter_Y" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="Y" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="2" TextChanged="Tb_Letter_TextChanged" />
                 </StackPanel>
                 <StackPanel Width="100" Margin="5, 5, 5, 5" Height="150">
                     <Label Content="Letter Z" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Margin="0, 25, 0, 0" />
-                    <TextBox x:Name="Tb_Letter_Z" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="Z" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="1" TextChanged="Tb_Letter_TextChanged" />
+                    <TextBox x:Name="Tb_Letter_Z" MaxLines="1" TextWrapping="Wrap" FontSize="25" Text="Z" FontWeight="Bold" Height="32" Width="32" Margin="0, 15, 0, 0" MaxLength="2" TextChanged="Tb_Letter_TextChanged" />
                 </StackPanel>
             </WrapPanel>
         </Grid>

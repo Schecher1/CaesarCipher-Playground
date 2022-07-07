@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 using System.Windows;
 using System.Windows.Controls;
@@ -11,13 +10,10 @@ namespace CaesarCipher_Playground.Windows
 {
     public partial class CaesarCipherKeyWindow : Window
     {
-        Random r = new Random();
-
         public CaesarCipherKeyWindow()
         {
             InitializeComponent();
         }
-           
 
         private void Tb_Letter_TextChanged(object sender, TextChangedEventArgs e)
         {
