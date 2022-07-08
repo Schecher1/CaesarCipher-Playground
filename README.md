@@ -20,9 +20,8 @@ Or [press here](https://github.com/Schecher1/CaesarCipher-Playground/releases/do
 
 
 ## Features:
-✔️ current query is displayed below<br/>
-✔️ several options how to handle the query<br/>
-✔️ 5 tasks, from easy to difficult<br/>
+✔️ encrypt and decrypt texts<br/>
+✔️ import and export the specific keys<br/>
 ✔️ user-friendly / beginner-friendly<br/>
 ✔️ requires NO installation, just start it<br/>
 
