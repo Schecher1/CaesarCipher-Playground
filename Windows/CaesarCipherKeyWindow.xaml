@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CaesarCipher_Playground.Windows"
         mc:Ignorable="d"
-        Title="CaesarCipher Playground - Key | Made by Schecher_1 | Version 1.0.0.0" 
+        Title="CaesarCipher Playground - Key | Made by Schecher_1 | Version 1.1.0.0" 
         Height="390" Width="1000" 
         Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}"
         Loaded="Window_Loaded"
