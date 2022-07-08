@@ -1,5 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Forms;
@@ -57,8 +59,6 @@ namespace CaesarCipher_Playground.Windows
 
         private void Bttn_Normal_Click(object sender, RoutedEventArgs e)
         {
-            
-
             TextBox[] letterBoxes = GetAllTextboxes();
             int counter = 0;
 
@@ -67,13 +67,9 @@ namespace CaesarCipher_Playground.Windows
                 letterBoxes[counter].Text = ((char)i).ToString();
                 counter++;
             }
-
-            
         }
         private void Bttn_Twisted_Click(object sender, RoutedEventArgs e)
         {
-            
-
             TextBox[] letterBoxes = GetAllTextboxes();
             int counter = 0;
 
@@ -82,8 +78,55 @@ namespace CaesarCipher_Playground.Windows
                 letterBoxes[counter].Text = ((char)i).ToString();
                 counter++;
             }
+        }
+        private void Bttn_Random_Click(object sender, RoutedEventArgs e)
+        {
+            TextBox[] letterBoxes = GetAllTextboxes();
+            List<char> usedChars = new List<char>();
+            bool getAllChars = false;
+            int arrayCounter = 0;
+            int errorCounter = 0;
 
-            
+            Bttn_Normal_Click(sender, e);
+
+            Random r = new Random();
+
+            while (!getAllChars)
+            {
+                errorCounter++;
+                bool charAlreadyUsed = false;
+
+                char randomChar = (char) r.Next(65, 91);
+
+                foreach (char letter in usedChars)
+                    if (letter == randomChar)
+                        charAlreadyUsed = true;
+
+                if (letterBoxes[arrayCounter].Text != randomChar.ToString() && !charAlreadyUsed)
+                {
+                    letterBoxes[arrayCounter].Text = randomChar.ToString();
+                    usedChars.Add(randomChar);
+                    arrayCounter++;
+                }
+
+                if (arrayCounter == letterBoxes.Length)
+                    getAllChars = true;
+
+                //Is the cut, if the while loop gets an endless run.
+                //(have no idea why, sometimes it works and sometimes not).
+                if (errorCounter == 5000)
+                {
+                    Bttn_Clear_Click(sender, e);
+                    break;
+                }
+            }
+        }
+        private void Bttn_Clear_Click(object sender, RoutedEventArgs e)
+        {
+            TextBox[] letterBoxes = GetAllTextboxes();
+
+            for (int i = 0; i < letterBoxes.Length; i++)
+                letterBoxes[i].Text = "";
         }
 
         private void LoadKey(string path)
@@ -174,5 +217,7 @@ namespace CaesarCipher_Playground.Windows
 
             return letterBoxes;
         }
+
+
     }
 }

@@ -18,6 +18,8 @@
                 <Separator/>
                 <Button x:Name="Bttn_Normal" Content="CaesarCipher-Key-Normal" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="Bttn_Normal_Click"/>
                 <Button x:Name="Bttn_Twisted" Content="CaesarCipher-Key-Twisted" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="Bttn_Twisted_Click" />
+                <Button x:Name="Bttn_Random" Content="CaesarCipher-Key-Random" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="Bttn_Random_Click" />
+                <Button x:Name="Bttn_Clear" Content="CaesarCipher-Key-Clear" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="Bttn_Clear_Click" />
             </ToolBar>
         </ToolBarPanel>
         
