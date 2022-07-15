@@ -37,12 +37,13 @@ Or [press here](https://github.com/Schecher1/CaesarCipher-Playground/releases/do
 ![KeyManager](IMAGES/Version%201.1.0.0/KeyManager.PNG)
 
 # CHANGELOG
-## v1.0.0.0
-- The program has an absolutely basic design
-- The encryption key can be changed at will
-- The key can be exported and imported
 
 ## v1.1.0.0
 - Added 2 buttons to the Key Manager
 - Your encryption key can now also be generated randomly
 - Your encryption key can now also be cleared.
+
+## v1.0.0.0
+- The program has an absolutely basic design
+- The encryption key can be changed at will
+- The key can be exported and imported
